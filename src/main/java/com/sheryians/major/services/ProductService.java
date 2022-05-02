@@ -28,7 +28,7 @@ public class ProductService {
         return productRepo.findById(id);
     }
 
-    public List<Product> getAllProductByCategoruId(int id ){
+    public List<Product> getAllProductByCategoryId(int id ){
         return productRepo.findByCategory_Id(id);
     }
 
